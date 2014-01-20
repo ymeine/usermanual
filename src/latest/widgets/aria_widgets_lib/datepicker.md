@@ -22,41 +22,41 @@ Enter a date in the first date picker and the successive datepickers will take t
 
 <iframe class='samples' src='http://snippets.ariatemplates.com/samples/github.com/ariatemplates/documentation-code/samples/widgets/datepicker/reference/' ></iframe>
 
-## A note about the default DatePicker interface
+## The default DatePicker interface
 
-What follows explains the user experience the clients will get when adding date pickers to an application without whanging their graphical interface.
+__What follows explains the user experience the users will get when adding date pickers to an application without changing their graphical interface (that is the template used behind).__
 
-The calendar view of the DatePicker allows you to do three things:
+The calendar view of the DatePicker allows to do three things:
 
-- navigating throughout the calendar to find the date you want
+- navigating throughout the calendar to find the desired date
 - selecting the date to insert into the input field
 - actually inserting the date
 
 ### Navigation
 
-When you open the date picker, the calendar will be centered around the date currently present in the input field, or if none is present around the today date.
+When the date picker is opened, the calendar is centered around the date currently present in the input field, or if none around the today date.
 
-You can navigate using your mouse:
+The user can navigate using the mouse:
 
 - through months by clicking the arrows located at the top corners
 - directly to special dates thanks to the links available at the bottom of the date picker:
-	- `Today`: centers the calendar around to the current date
-	- `Selected date`, available only if a date is actually selected: centers the calendar around to the selected date
+	- `Today`: centers the calendar around the today date
+	- `Selected date`, _available only if a date is actually selected_: centers the calendar around the selected date
 
-You can also navigate using your keyboard (note that this will also whange date selection, see next section):
+The user can also navigate using the keyboard (note that this will also change the selected date, see next section):
 
-- through days using the navigation keys
-- through months using the `Page Up` and `Page Down` keys: the day in the month will remain the same if possible (all months don't have the same number of days)
+- through days using the [arrow keys](http://en.wikipedia.org/wiki/Arrow_keys)
+- through months using the [`Page Up` and `Page Down` keys](https://en.wikipedia.org/wiki/Page_Up_and_Page_Down_keys): the day in the month will remain the same if possible (all months don't have the same number of days)
 
 ### Selection
 
-When you open the date picker:
+When opening the date picker:
 
 - if no date is present in the input field, no date is selected
-- otherwise, the date corresponding to the one present in the input field is selected
+- otherwise, the date corresponding to the one present in the input field is automatically selected
 
-Then, in order to __only__ select a date, use the navigation keys of your keyboard.
+Then, in order to __only__ select a date, the user can use the [arrow keys](http://en.wikipedia.org/wiki/Arrow_keys).
 
 ### Insertion
 
-To insert a date into the input field, directly click on the day you want.
+To insert a date into the input field, the user will have to (left-)click on the desired day.
