@@ -94,7 +94,7 @@ This modifier uses the string utility function [escapeForHTML](http://ariatempla
 
 However the [modifier itself](http://ariatemplates.com/aria/guide/apps/apidocs/#aria.templates.Modifiers:escapeForHTML:method) does some additional things:
 
-1. if the input is `null` or <code>undefined</code>, the value is left untouched
+1. if the input is null or undefined, the value is left untouched
 1. if no escaping has to be done (you passed `false` directly or for every context), the value is left untouched too
 1. otherwise, it converts the input to a string and escapes it (even if maybe nothing will change): the important thing is that you will get a string in the output
 
